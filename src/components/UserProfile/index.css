@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+img {
+    width: 55px;
+    height: 55px;
+    border-radius: 80%;
+}
+
+.info{
+    padding: 5px 10px;
+}
+
+.title{
+    font-family:'Helvetica';
+    font-weight: 600;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.role{
+    font-weight: 300;
+    color: #555;
+    padding-left: 15px;
+}
