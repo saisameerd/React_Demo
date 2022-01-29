@@ -1,5 +1,6 @@
 import './App.css';
 import UserProfile from './components/UserProfile';
+import Counter from './components/Counter';
 
 const userDetailsList = [
   {
@@ -32,14 +33,17 @@ const userDetailsList = [
 function App() {
   return (
     <div className='App'>
-    <h1>User's List</h1>
-    <ul>
-    {userDetailsList.map((eachItem) => (
-        <UserProfile userDetails={eachItem} key={eachItem.uniqueKey} />
-      ))}
-    </ul>
+    <Counter />
     </div>
   );
 }
+
+/* <h1>User's List</h1> */
+    /* <ul> */
+    /* {userDetailsList.map((eachItem) => (
+        <UserProfile userDetails={eachItem} key={eachItem.uniqueKey} />
+      ))} */
+
+    /* </ul> */
 
 export default App;

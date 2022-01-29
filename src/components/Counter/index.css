@@ -1,0 +1,30 @@
+*{
+    background-color: #222;
+    color: #fff;
+}
+
+body{
+    margin: 10% 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+padding: 15px 15px;
+border: none;
+outline: none;
+background-color: #555;
+margin: 10px 20px ;
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+p{
+    font-size: 80px;
+    padding: 10px 20px;
+}
